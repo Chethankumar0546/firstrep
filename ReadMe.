@@ -1,0 +1,12 @@
+Building a model for predicting which factors which influences customer the ‘no show-up’ to the trade fair event using a Text data 
+What we will do:  
+STEP1: Show_start_date and show_end_date are in two different formats please make it to mmddyyyy format.
+STEP2: REG_DATE is in two different format, please make it to mmddyy10… also create a derive a month variable that is new variable should take value 1 2 3… 12 this can be included as independent variable
+STEP3 : Attended is in Yes/ No change it to numeric binary No-1 yes-0
+STEP4: in the variable SHOWINFO_SOURCE, please remove ]
+STEP5: for the variable AIRLINE_BOOKED, please remove question (With which airline are you planning to take or have you already booked your flight with? ") which is associated with answer  and also remove   "]
+STEP6: please do the same as mentioned (in STEP 5) above for HOTEL_BOOKED
+STEP7 : in the variables “NO_NIGHTS_BUSINESS” and NO_NIGHTS_LEISURE    remove days, question to make it a number  such as 1,2,3,4 …. N
+STEP8: in the  SHOW_START_DATE , create new variable such as festival_indicator with FEB15 takes 1 and March takes 0
+STEP9: Build Decision tree, Logistic Regression and Neural Network
+STEP10: Compare model to decide champion model
